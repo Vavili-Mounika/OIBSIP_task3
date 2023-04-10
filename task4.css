@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("C:/xampp1/htdocs/internship/image/t1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    
+}
+.main{
+    max-width: 450px;
+    background:white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px 3px rgb(100, 177, 240);
+    font-family: sans-serif;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.container{
+    max-width: 1000px;
+    background: #003333;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.4);
+    font-family: sans-serif;
+    padding: 20px;
+    color: aliceblue;
+}
+.t,.t1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+input,select{
+    flex: 5;
+    height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 0 10px;
+}
+.button{
+    margin-top: 25px;
+    text-align: center;
+    
+}
+.button button{
+    border:none;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+    background: grey;
+}
+.button button:hover{
+    background:red;
+    color: #fff;
+}
+.result{
+    color: #fff;
+    font-weight: bold;
+
+}
